@@ -8,7 +8,7 @@ agent any
 stages {
 stage('Cloning Git') {
 steps {
-git branch: 'master', url: 'https://github.com/souadCisse/tp4devops.git'
+git branch: 'main', url: 'https://github.com/souadCisse/tp4devops.git'
 }
 }
 stage('Building image') {
